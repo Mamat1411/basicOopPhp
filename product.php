@@ -13,6 +13,6 @@ $product1 -> author = 'Masashi Kishimoto';
 $product1 -> publisher = 'Shonen Jump';
 $product1 -> price = 30000;
 
-var_dump($product1);
+echo "Komik : $product1->author, $product1->publisher"
 
 ?>
