@@ -1,13 +1,15 @@
 <?php
 
 class Product{
-    public $title,
-           $author,
-           $publisher,
-           $price;
+    public $title = 'title',
+           $author = 'author',
+           $publisher = 'publisher',
+           $price = 0;
 }
 
 $product1 = new Product();
+$product1 -> title = 'Naruto';
+
 var_dump($product1);
 
 ?>
